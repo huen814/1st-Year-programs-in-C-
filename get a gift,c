@@ -1,0 +1,24 @@
+#include<stdio.h>
+
+    void setValue();
+    
+    void setValue(){
+        char first[100],second[100],third[100],fourth[100],fifth[100];
+        // this program is not perfect, works with only one line of character.
+        printf("Enter the first thing: ");
+            scanf(" %s", first);
+        printf("Enter the second thing: ");
+            scanf(" %s", second);
+        printf("Enter the third thing: ");
+            scanf(" %s", third);
+        printf("Enter the fourth thing: ");
+            scanf(" %s", fourth);
+        printf("Enter the fifth thing: ");
+            scanf(" %s", fifth);
+        printf("%s, %s, %s, %s, %s\n", first, second, third, fourth, fifth);
+    }
+    int main(){
+        setValue();
+        return 0;
+    }
+    
